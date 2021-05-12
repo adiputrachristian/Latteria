@@ -3,17 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20664242DEA610C9BF464A3B /* Pods_NewLatteria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5192BE7D4415D3251D17B0FC /* Pods_NewLatteria.framework */; };
 		4E2528102642F16800E22A37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E25280F2642F16800E22A37 /* AppDelegate.swift */; };
 		4E2528122642F16800E22A37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2528112642F16800E22A37 /* SceneDelegate.swift */; };
 		4E2528142642F16800E22A37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2528132642F16800E22A37 /* ViewController.swift */; };
-		4E2528172642F16800E22A37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E2528152642F16800E22A37 /* Main.storyboard */; };
 		4E25281A2642F16800E22A37 /* NewLatteria.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E2528182642F16800E22A37 /* NewLatteria.xcdatamodeld */; };
 		4E25281C2642F16900E22A37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E25281B2642F16900E22A37 /* Assets.xcassets */; };
 		4E25281F2642F16900E22A37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E25281D2642F16900E22A37 /* LaunchScreen.storyboard */; };
+		4E2528362642F46900E22A37 /* CoreDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2528312642F46900E22A37 /* CoreDataHandler.swift */; };
+		4E2528372642F46900E22A37 /* AddCoffeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2528322642F46900E22A37 /* AddCoffeeViewController.swift */; };
+		4E2528382642F46900E22A37 /* AmbienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2528332642F46900E22A37 /* AmbienceViewController.swift */; };
+		4E2528392642F46900E22A37 /* ListCoffeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2528342642F46900E22A37 /* ListCoffeeViewController.swift */; };
+		4E25283A2642F46900E22A37 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2528352642F46900E22A37 /* SoundPlayer.swift */; };
+		4E25283F2642F58400E22A37 /* CoffeeData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E25283D2642F58400E22A37 /* CoffeeData+CoreDataProperties.swift */; };
+		4E2528402642F58400E22A37 /* CoffeeData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E25283E2642F58400E22A37 /* CoffeeData+CoreDataClass.swift */; };
+		4E2528442642F59E00E22A37 /* LatteriaDataModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4E2528422642F59E00E22A37 /* LatteriaDataModel.mlmodel */; };
+		4E2528452642F59E00E22A37 /* SoundData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2528432642F59E00E22A37 /* SoundData.swift */; };
+		4E25284E2642F5BC00E22A37 /* SoundCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E2528482642F5BB00E22A37 /* SoundCollectionViewCell.xib */; };
+		4E25284F2642F5BC00E22A37 /* SoundCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2528492642F5BB00E22A37 /* SoundCollectionViewCell.swift */; };
+		4E2528502642F5BC00E22A37 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E25284A2642F5BB00E22A37 /* DetailViewController.swift */; };
+		4E2528512642F5BC00E22A37 /* CardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E25284B2642F5BB00E22A37 /* CardCollectionViewCell.xib */; };
+		4E2528522642F5BC00E22A37 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E25284C2642F5BB00E22A37 /* DetailViewController.xib */; };
+		4E2528532642F5BC00E22A37 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E25284D2642F5BB00E22A37 /* CardCollectionViewCell.swift */; };
+		4E25285A2642F5CB00E22A37 /* Song.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4E2528562642F5CB00E22A37 /* Song.wav */; };
+		4E25285B2642F5CB00E22A37 /* People.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4E2528572642F5CB00E22A37 /* People.wav */; };
+		4E25285C2642F5CB00E22A37 /* Grinder.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4E2528582642F5CB00E22A37 /* Grinder.wav */; };
+		4E25285D2642F5CB00E22A37 /* Brew.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4E2528592642F5CB00E22A37 /* Brew.wav */; };
+		4E2528612642F5DA00E22A37 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2528602642F5DA00E22A37 /* Extension.swift */; };
+		4E2528642642F6D100E22A37 /* coffeecup.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E2528632642F6D100E22A37 /* coffeecup.json */; };
+		4E25287B2642F94D00E22A37 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E25287A2642F94D00E22A37 /* Add.storyboard */; };
+		4E25287F2642FB9900E22A37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E25287E2642FB9900E22A37 /* Main.storyboard */; };
+		4E252888264300B500E22A37 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E252887264300B500E22A37 /* Menu.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +45,37 @@
 		4E25280F2642F16800E22A37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E2528112642F16800E22A37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4E2528132642F16800E22A37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4E2528162642F16800E22A37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E2528192642F16800E22A37 /* NewLatteria.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewLatteria.xcdatamodel; sourceTree = "<group>"; };
 		4E25281B2642F16900E22A37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E25281E2642F16900E22A37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E2528202642F16900E22A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E2528312642F46900E22A37 /* CoreDataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHandler.swift; sourceTree = "<group>"; };
+		4E2528322642F46900E22A37 /* AddCoffeeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCoffeeViewController.swift; sourceTree = "<group>"; };
+		4E2528332642F46900E22A37 /* AmbienceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmbienceViewController.swift; sourceTree = "<group>"; };
+		4E2528342642F46900E22A37 /* ListCoffeeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCoffeeViewController.swift; sourceTree = "<group>"; };
+		4E2528352642F46900E22A37 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		4E25283D2642F58400E22A37 /* CoffeeData+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoffeeData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4E25283E2642F58400E22A37 /* CoffeeData+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoffeeData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4E2528422642F59E00E22A37 /* LatteriaDataModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = LatteriaDataModel.mlmodel; sourceTree = "<group>"; };
+		4E2528432642F59E00E22A37 /* SoundData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundData.swift; sourceTree = "<group>"; };
+		4E2528482642F5BB00E22A37 /* SoundCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoundCollectionViewCell.xib; sourceTree = "<group>"; };
+		4E2528492642F5BB00E22A37 /* SoundCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E25284A2642F5BB00E22A37 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4E25284B2642F5BB00E22A37 /* CardCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardCollectionViewCell.xib; sourceTree = "<group>"; };
+		4E25284C2642F5BB00E22A37 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		4E25284D2642F5BB00E22A37 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E2528562642F5CB00E22A37 /* Song.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Song.wav; sourceTree = "<group>"; };
+		4E2528572642F5CB00E22A37 /* People.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = People.wav; sourceTree = "<group>"; };
+		4E2528582642F5CB00E22A37 /* Grinder.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Grinder.wav; sourceTree = "<group>"; };
+		4E2528592642F5CB00E22A37 /* Brew.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Brew.wav; sourceTree = "<group>"; };
+		4E2528602642F5DA00E22A37 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		4E2528632642F6D100E22A37 /* coffeecup.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = coffeecup.json; sourceTree = "<group>"; };
+		4E25287A2642F94D00E22A37 /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = "<group>"; };
+		4E25287E2642FB9900E22A37 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4E252887264300B500E22A37 /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
+		5192BE7D4415D3251D17B0FC /* Pods_NewLatteria.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewLatteria.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D1A5A7919169F852DCDD03 /* Pods-NewLatteria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewLatteria.debug.xcconfig"; path = "Target Support Files/Pods-NewLatteria/Pods-NewLatteria.debug.xcconfig"; sourceTree = "<group>"; };
+		9F95A4E2E4D032D0F085E529 /* Pods-NewLatteria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewLatteria.release.xcconfig"; path = "Target Support Files/Pods-NewLatteria/Pods-NewLatteria.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +83,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20664242DEA610C9BF464A3B /* Pods_NewLatteria.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F70034A37E25A37652B15FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5192BE7D4415D3251D17B0FC /* Pods_NewLatteria.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4E2528032642F16800E22A37 = {
 			isa = PBXGroup;
 			children = (
 				4E25280E2642F16800E22A37 /* NewLatteria */,
 				4E25280D2642F16800E22A37 /* Products */,
+				CCFC9510A64D5114817046D4 /* Pods */,
+				2F70034A37E25A37652B15FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +119,96 @@
 		4E25280E2642F16800E22A37 /* NewLatteria */ = {
 			isa = PBXGroup;
 			children = (
+				4E25285F2642F5DA00E22A37 /* Extension */,
+				4E2528552642F5CB00E22A37 /* Sound */,
+				4E2528472642F5BB00E22A37 /* Cell */,
+				4E25283C2642F57C00E22A37 /* Model */,
+				4E2528302642F45000E22A37 /* Controller */,
+				4E25282E2642F36600E22A37 /* View */,
 				4E25280F2642F16800E22A37 /* AppDelegate.swift */,
 				4E2528112642F16800E22A37 /* SceneDelegate.swift */,
 				4E2528132642F16800E22A37 /* ViewController.swift */,
-				4E2528152642F16800E22A37 /* Main.storyboard */,
 				4E25281B2642F16900E22A37 /* Assets.xcassets */,
+				4E2528632642F6D100E22A37 /* coffeecup.json */,
 				4E25281D2642F16900E22A37 /* LaunchScreen.storyboard */,
 				4E2528202642F16900E22A37 /* Info.plist */,
 				4E2528182642F16800E22A37 /* NewLatteria.xcdatamodeld */,
 			);
 			path = NewLatteria;
+			sourceTree = "<group>";
+		};
+		4E25282E2642F36600E22A37 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E25287A2642F94D00E22A37 /* Add.storyboard */,
+				4E25287E2642FB9900E22A37 /* Main.storyboard */,
+				4E252887264300B500E22A37 /* Menu.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E2528302642F45000E22A37 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E2528322642F46900E22A37 /* AddCoffeeViewController.swift */,
+				4E2528332642F46900E22A37 /* AmbienceViewController.swift */,
+				4E2528312642F46900E22A37 /* CoreDataHandler.swift */,
+				4E2528342642F46900E22A37 /* ListCoffeeViewController.swift */,
+				4E2528352642F46900E22A37 /* SoundPlayer.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E25283C2642F57C00E22A37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E2528422642F59E00E22A37 /* LatteriaDataModel.mlmodel */,
+				4E2528432642F59E00E22A37 /* SoundData.swift */,
+				4E25283E2642F58400E22A37 /* CoffeeData+CoreDataClass.swift */,
+				4E25283D2642F58400E22A37 /* CoffeeData+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E2528472642F5BB00E22A37 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4E2528482642F5BB00E22A37 /* SoundCollectionViewCell.xib */,
+				4E2528492642F5BB00E22A37 /* SoundCollectionViewCell.swift */,
+				4E25284A2642F5BB00E22A37 /* DetailViewController.swift */,
+				4E25284B2642F5BB00E22A37 /* CardCollectionViewCell.xib */,
+				4E25284C2642F5BB00E22A37 /* DetailViewController.xib */,
+				4E25284D2642F5BB00E22A37 /* CardCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4E2528552642F5CB00E22A37 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				4E2528562642F5CB00E22A37 /* Song.wav */,
+				4E2528572642F5CB00E22A37 /* People.wav */,
+				4E2528582642F5CB00E22A37 /* Grinder.wav */,
+				4E2528592642F5CB00E22A37 /* Brew.wav */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		4E25285F2642F5DA00E22A37 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4E2528602642F5DA00E22A37 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CCFC9510A64D5114817046D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52D1A5A7919169F852DCDD03 /* Pods-NewLatteria.debug.xcconfig */,
+				9F95A4E2E4D032D0F085E529 /* Pods-NewLatteria.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E2528232642F16900E22A37 /* Build configuration list for PBXNativeTarget "NewLatteria" */;
 			buildPhases = (
+				F48249B4573FDF26308E6D29 /* [CP] Check Pods Manifest.lock */,
 				4E2528082642F16800E22A37 /* Sources */,
 				4E2528092642F16800E22A37 /* Frameworks */,
 				4E25280A2642F16800E22A37 /* Resources */,
+				EAFC79B7A7CAE92771FF3A40 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,21 +270,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E25284E2642F5BC00E22A37 /* SoundCollectionViewCell.xib in Resources */,
+				4E2528522642F5BC00E22A37 /* DetailViewController.xib in Resources */,
+				4E252888264300B500E22A37 /* Menu.storyboard in Resources */,
+				4E2528512642F5BC00E22A37 /* CardCollectionViewCell.xib in Resources */,
+				4E25287F2642FB9900E22A37 /* Main.storyboard in Resources */,
+				4E25285C2642F5CB00E22A37 /* Grinder.wav in Resources */,
+				4E25285B2642F5CB00E22A37 /* People.wav in Resources */,
+				4E2528642642F6D100E22A37 /* coffeecup.json in Resources */,
 				4E25281F2642F16900E22A37 /* LaunchScreen.storyboard in Resources */,
+				4E25285D2642F5CB00E22A37 /* Brew.wav in Resources */,
 				4E25281C2642F16900E22A37 /* Assets.xcassets in Resources */,
-				4E2528172642F16800E22A37 /* Main.storyboard in Resources */,
+				4E25287B2642F94D00E22A37 /* Add.storyboard in Resources */,
+				4E25285A2642F5CB00E22A37 /* Song.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EAFC79B7A7CAE92771FF3A40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewLatteria/Pods-NewLatteria-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewLatteria/Pods-NewLatteria-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewLatteria/Pods-NewLatteria-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F48249B4573FDF26308E6D29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewLatteria-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E2528082642F16800E22A37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E2528372642F46900E22A37 /* AddCoffeeViewController.swift in Sources */,
+				4E25283F2642F58400E22A37 /* CoffeeData+CoreDataProperties.swift in Sources */,
+				4E2528452642F59E00E22A37 /* SoundData.swift in Sources */,
+				4E2528382642F46900E22A37 /* AmbienceViewController.swift in Sources */,
 				4E25281A2642F16800E22A37 /* NewLatteria.xcdatamodeld in Sources */,
+				4E2528362642F46900E22A37 /* CoreDataHandler.swift in Sources */,
+				4E25283A2642F46900E22A37 /* SoundPlayer.swift in Sources */,
+				4E2528442642F59E00E22A37 /* LatteriaDataModel.mlmodel in Sources */,
+				4E2528532642F5BC00E22A37 /* CardCollectionViewCell.swift in Sources */,
+				4E25284F2642F5BC00E22A37 /* SoundCollectionViewCell.swift in Sources */,
+				4E2528612642F5DA00E22A37 /* Extension.swift in Sources */,
+				4E2528402642F58400E22A37 /* CoffeeData+CoreDataClass.swift in Sources */,
+				4E2528392642F46900E22A37 /* ListCoffeeViewController.swift in Sources */,
 				4E2528142642F16800E22A37 /* ViewController.swift in Sources */,
+				4E2528502642F5BC00E22A37 /* DetailViewController.swift in Sources */,
 				4E2528102642F16800E22A37 /* AppDelegate.swift in Sources */,
 				4E2528122642F16800E22A37 /* SceneDelegate.swift in Sources */,
 			);
@@ -150,14 +358,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4E2528152642F16800E22A37 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4E2528162642F16800E22A37 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4E25281D2642F16900E22A37 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,17 +487,19 @@
 		};
 		4E2528242642F16900E22A37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52D1A5A7919169F852DCDD03 /* Pods-NewLatteria.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = A226GG3668;
 				INFOPLIST_FILE = NewLatteria/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tian.NewLatteria;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tian.LatteriaCoffee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,17 +508,19 @@
 		};
 		4E2528252642F16900E22A37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F95A4E2E4D032D0F085E529 /* Pods-NewLatteria.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = A226GG3668;
 				INFOPLIST_FILE = NewLatteria/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tian.NewLatteria;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tian.LatteriaCoffee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
